@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="html, course, css, tags" />
+    <meta name="description" content="Это базовый курс по HTML" />
+    <title>Сайт с нуля.</title>
+    <link rel="stylesheet" href="sate.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="WarRobots_sample.jpg" alt="Картинка" width="200" />
+        <h1>
+          Алексей <br />
+          Давыдов
+        </h1>
+        <p>
+          Я заинтересовался <strong>обучению</strong> <em>програмиста</em> и
+          надеюсь что все получится.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias,
+          sit.
+        </p>
+
+        <br />
+        <a href="https://vk.com/id343569856" target="_blank">Вконтакте</a>
+        <a href="https://vimeo.com/user106436184" target="_blank">vimeo</a>
+      </div>
+
+      <br />
+
+      <div class="card">
+        <h2>Мои хобби.</h2>
+        <ol class="list">
+          <!-- Цифровой Лист -->
+          <li>Путишествие</li>
+          <li>Машины</li>
+          <li>Игры</li>
+          <li>Програмирование</li>
+        </ol>
+      </div>
+
+      <br />
+
+      <div class="card">
+        <h2>опыт работы</h2>
+
+        <table class="table">
+          <thead>
+            <!-- Верхняя часть таблици. -->
+            <tr>
+              <!-- Строка в таблице. -->
+              <th>Название работы</th>
+              <th>Должность</th>
+              <th>Период работы</th>
+              <th>Обучение</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <!-- Средняя часть таблици. -->
+            <tr>
+              <td>ТТП</td>
+              <td>Водитель</td>
+              <td>2012-2015</td>
+            </tr>
+            <tr>
+              <td>Литрек</td>
+              <td>Водитель</td>
+              <td>2015-2020</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <form action="/">
+        <h2>Связатся со мной</h2>
+        <div class="for">
+          <div class="for-ma">
+            <label for="name">Ваше Имя</label>
+            <input type="name" placeholder="Введите имя" />
+          </div>
+
+          <div class="for">
+            <label for="Email">Ваш Email</label>
+            <input type="Email" placeholder="Введите Email" />
+          </div>
+        </div>
+
+        <div class="for">
+          <label for="message">Сообщение</label>
+
+          <textarea
+            name=""
+            id="message"
+            placeholder="Введите сообщение"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <!-- Многострочная форма -->
+        </div>
+        <input class="btn" type="submit" value="Отправить форму" />
+      </form>
+    </div>
+  </body>
+</html>

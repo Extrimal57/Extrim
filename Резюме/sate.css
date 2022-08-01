@@ -1,0 +1,155 @@
+h1 {
+  color: rgb(245, 140, 140);
+  padding-left: 10px;
+  border-radius: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+}
+
+@media (max-width: 650px){
+  .info{
+    display: block;
+    text-align: center;
+  }
+}
+
+body {
+  font-size: 17px;
+  font-family: roboto, sans-serif;
+  font-weight: bold;
+  background: rgb(212, 194, 194);
+  margin-bottom: 8px;
+  padding-left: 10px;
+}
+
+.info p {
+  font-style: italic;
+  font-weight: bold;
+  color: blueviolet;
+  padding-left: 5px;
+}
+
+.info img {
+  box-shadow: 4px 4px 14px;
+  color: rgba 0, 0, 0, 0.3;
+  border-radius: 15px;
+  height: 150px;
+  display: flex;
+}
+
+.card {
+  border-radius: 12px;
+  background: rgb(73, 106, 119);
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.container {
+  padding: 10px;
+  margin: auto;
+  max-width: 750px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(71, 6, 250);
+}
+
+a:visited {
+  color: rgba(15, 189, 58, 0.699);
+}
+
+.btn {
+  color: rgb(240, 6, 6);
+  background: #000;
+  border-radius: 20px;
+  padding: 15px 20px;
+  border: nano;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+  list-style: none; /* Убирает номерацию */
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+  border-bottom: 1px solid green;
+  text-align: center;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+
+.for-ma {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.for-ma .for {
+  display: inline-block;
+  margin-right: 20px;
+  width: 50%;
+}
+
+.for-ma .for {
+  margin-right: 0;
+}
+
+.for label {
+  display: block;
+  font-size: 15px;
+  color: #86898f;
+}
+
+@media (max-width: 650px){
+  .for-ma{
+    display: block;
+  }
+
+  .for-ma .for{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.for input,
+.for textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(194, 170, 170);
+  color: #000;
+  padding: 15 0 10px;
+  outline: none;
+  font-family: inherit;
+}
